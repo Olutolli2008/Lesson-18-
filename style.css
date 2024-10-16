@@ -1,0 +1,75 @@
+div#Translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: blue;
+    transform: translate(50px,20px);
+    padding: 10px;
+
+}
+
+div#rotate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: red;
+    background-color: black;
+    padding: 10px;
+    transform: rotate(90deg);
+
+}
+
+div#scale{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    padding: 10px;
+    transform: scale(1,1);
+    
+
+}
+
+
+div#skewX{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: red;
+    background-color: black;
+    font-weight: bold ;
+    padding: 10px;
+    transform: slewX(130deg);
+        
+}
+
+div#rotate3d{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: red;
+    background-color: black;
+    font-weight: bold ;
+    padding: 10px;
+    transform: rotate3d(30deg);
+        
+}
+
+#transitions{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    font-weight: bold ;
+    padding: 10px;
+  transition: 3s;
+        
+}
+
+#transitions:hover{
+    background-color: black;
+    color: red;
+}
+
